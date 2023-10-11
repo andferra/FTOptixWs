@@ -1,0 +1,107 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: VarInt32
+  Id: g=b4d2dd86ca28c09dd307890647f1e47c
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 32
+- Name: VarBool
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: ArrayInt
+  Id: g=5c6a04b995e9828d373e712df6404e10
+  Type: BaseDataVariableType
+  DataType: Int16
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0,11,0,33,0,0,0,0,0,0]
+- Name: MinValue
+  Id: g=8f3b5b4f2487367c3874f26a74d6fa9b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: MaxValue
+  Id: g=7c2aa888243d309772cadb36b5bfd13a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 200
+- Name: myMotorInstance
+  Type: myMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: myMotor
+  Id: g=834d379b7b40e9940c0c738a12b7f5e0
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: myMotor1
+  Id: g=b31a53e74207d86e1919cb4963c3e1b4
+  Type: myMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 11
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 22
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: myMotor2
+  Id: g=4f561a181a2b8c783cfb91353861c7c5
+  Type: myMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 55
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 66
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: myMotor3
+  Type: myMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
